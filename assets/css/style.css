@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Jura";
+}
+
+.size_1400px {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+
+
+.wid {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: 100px;
+    flex-direction: row;
+    gap: 30px;
+    transition: .3s;
+}
+
+.navigation a {
+    color: #333333;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+/* header */
+
+/* bunner */
+.bunner {
+    background-image: url(..//media/banner/Group\ 2.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 300px;
+    padding-left: 800px;
+}
+
+.txt h1 {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.txt h2 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.btn button {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #333333;
+    padding: 14px 74px;
+    border: 1px solid #333333;
+    background-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    color: black;
+}
+/* bunner */
+
+/* popular */
+.popular_tovars h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+
+.tovars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tovars_card {
+    display: flex;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    min-width: 370px;
+    min-height: 505px;
+    padding: 20px;
+}
+
+.liketov{
+    padding-bottom: 250px;
+    padding-left: 15px;
+   
+}
+.card p{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    color: #333333;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.price {
+    text-align: left;
+    display: flex;
+ 
+ 
+}
+
+
+
+.size {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}
+
+.btnsize{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    color: #333333;
+    padding: 10px 20px;
+    border: 1px solid #D6D6D6;
+    background-color: #D6D6D6;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btnbasket{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    padding: 12px 50px;
+    border: 1px solid #333333;
+    background-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+    align-items: center;
+}
+.price p {
+    color: #A6A6A6;
+    text-align: left;
+}
+
+.tt {
+    padding-top: 50px;
+}
+/* popular */
+
+/* plitka */
+.plitka_tovars {
+    padding-top: 150px;
+}
+
+.plita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card_plit {
+    position: relative;
+}
+
+.card_plit button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: 0 auto;
+
+    width: 190px;
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+/* plitka */
+
+
+
+/* footer */
+.footer_sec {
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.footer_obj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer_text {
+    color: #333333;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .3s;
+}
+
+
+.footer_text a:hover {
+    color: #000000;
+}
+
+.footer_text a{
+    margin: 10px 0;
+    color: #333333;
+}
+/* footer */
+
+
+
+/* hleb */
+.hleb_krosh {
+    padding-top: 100px;
+}
+
+.hleb_krosh a{
+    color: rgb(99, 99, 99);
+}
+
+.hleb_krosh a:hover {
+    color: black;
+}
+/* hleb */
+
+/* filter */
+.catalog_name {
+    padding-top: 50px;
+}
+
+.sec_filtername {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.filter_niput{
+    padding: 40px 0;
+}
+
+.filt {
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* filter */
+
+
+/* one tovar */
+    .name_sec_one {
+        padding-top: 30px;
+    }
+
+    .cont_tovar {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    
+    .txt-t p{
+        padding-top: 35px;
+        font-weight: 800;
+        font-size: 20px;
+        max-width: 700px;
+    }
+    .opis{
+        color: #B2B2B2;
+    }
+    .size{
+        padding-top: 40px;
+    }
+    .op{
+        color: #B2B2B2;
+    }
+     .sizetxt{
+        font-weight: 600;
+        font-size: 20px;
+        color: #333333;
+    }
+
+    .photo{
+        max-width: 500px;
+        min-width: 400px;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+
+    .tovar_txt{
+        border: 1px solid #333333;
+        border-radius: 12px;
+        padding: 20px 20px;
+    }
+.btnbask{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333333;
+    padding: 12px 50px;
+    border: 1px solid #333333;
+    background-color: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+    align-items: center;
+}
+    
+/* one tovar */
+
+
+.back_fon {
+    margin: 200px 0;
+}
+
+.sss {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    padding: 80px 80px;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+.s{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.txt_t {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.kolvo {
+    display: flex;
+    gap: 50px;
+}
+
+.kolvo p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.plus {
+    display: flex;
+    gap: 20px;
+}
+
+.plus button {
+    padding: 2px 4px;
+}
+
+.pr {
+    margin: 20px 0;
+}
+
+.pr p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.back{
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+
+
+
+@media  (min-width: 320px)and  (max-width: 500px){
+    
+    .size_1400px {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .wid .navigation {
+        display: none;
+    }
+
+    .btn {
+        padding: 0px 0;
+        max-width:  100%;
+    }
+    
+    .tovars {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .bunner{
+        height: 75vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .txt {
+        padding: 100px 0 0 0;
+    }
+
+    .plita {
+        display: flex;
+        flex-direction: column  ;
+    }
+
+    .card_plit {
+        overflow: hidden;
+        height: 450px;
+        width: 100%;
+    }
+
+    .card_plit img {
+        width: 100%;
+        position: relative;
+        top: -220px;
+    }
+
+    .footer_obj {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer_obj a {
+        text-align: center;
+    }
+
+    .footer_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cont_tovar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+ 
+    
+}
